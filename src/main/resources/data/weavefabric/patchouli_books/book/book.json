@@ -1,0 +1,7 @@
+{
+  "name": "item.patchouli:weavefabric.name",
+  "landing_text": "gui.patchouli:weavefabric.landing_text",
+  "version": 1,
+  "creative_tab": "weavefabric:weavefabric",
+  "use_resource_pack": true
+}
