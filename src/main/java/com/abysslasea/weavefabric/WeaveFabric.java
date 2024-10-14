@@ -1,5 +1,6 @@
 package com.abysslasea.weavefabric;
 
+import com.abysslasea.weavefabric.item.custom.recipe.warpbobb.WarpBobbinRecipe;
 import com.abysslasea.weavefabric.ui.ModTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
@@ -11,6 +12,8 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
+import java.beans.EventHandler;
+
 @Mod(WeaveFabric.MODID)
 public class WeaveFabric
 {
@@ -19,13 +22,10 @@ public class WeaveFabric
 
     public WeaveFabric(IEventBus modEventBus)
     {
-        modEventBus.addListener(this::commonSetup);
         ModItems.register(modEventBus);
         ModTabs.CREATIVE_TAB.register(modEventBus);
-        NeoForge.EVENT_BUS.register(this);
     }
     private void commonSetup(final FMLCommonSetupEvent event) {
-        LOGGER.info("Common setup for WeaveFabric mod has been called.");
     }
 
      @SubscribeEvent

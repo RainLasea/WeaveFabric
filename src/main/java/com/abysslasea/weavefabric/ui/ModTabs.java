@@ -18,5 +18,7 @@ public class ModTabs {
                     .icon(() -> ModItems.comb.get().getDefaultInstance())
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.comb.get());
+                        output.accept(ModItems.loosened_wool.get());
+                        output.accept(ModItems.warp_bobbin.get());
                     }).build());
 }

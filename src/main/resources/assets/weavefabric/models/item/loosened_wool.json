@@ -1,0 +1,7 @@
+{
+  "loader": "neoforge:item_layers",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "weavefabric:item/loosened_wool"
+  }
+}

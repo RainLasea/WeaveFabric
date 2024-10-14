@@ -1,6 +1,13 @@
+
 {
+  "advancement.weavefabric.root":"Weave Fabric",
+  "advancement.weavefabric.root.desc":"Welcome to Weave Fabric",
+  "advancements.weavefabric.loosened_wool":"Like Snow",
+  "advancements.weavefabric.loosened_wool.desc":"get Loosened Wool",
   "item.patchouli:weavefabric.name":"Weaving Guide",
   "gui.patchouli:weavefabric.landing_text": "Welcome to the 'Weaving Guide.' This book offers essential knowledge of weaving to help you master this ancient craft. Whether you're a beginner or an experienced weaver, you'll find techniques, materials, and steps for creating your own weaving machines.",
-  "item.weavefabric.comb": "comb",
+  "item.weavefabric.comb": "Comb",
+  "item.weavefabric.loosened_wool": "Loosened Wool",
+  "item.weavefabric.warp_bobbin": "Warp Bobbin",
   "itemGroup.weavefabric": "WeaveFabric"
 }
